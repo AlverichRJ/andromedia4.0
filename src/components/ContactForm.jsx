@@ -45,10 +45,10 @@ const ContactForm = () => {
 
       emailjs
         .send(
-          "service_3gwo7zk", // Replace with your EmailJS service ID
-          "template_7v5r8bg", // Replace with your EmailJS template ID
+          "service_uibux4m", // Replace with your EmailJS service ID
+          "template_6avkvvo", // Replace with your EmailJS template ID
           formData,
-          "-wc8hSiYAooBES0eo",
+          "EBqX0QK1l9lSOf_U4",
         )
         .then((response) => {
           console.log("SUCCESS!", response.status, response.text);
