@@ -69,7 +69,7 @@ const ContactForm = () => {
     <div className="mx-auto max-w-3xl p-4" id="contact">
       <Toaster />
       <h2 className="my-8 text-center text-4xl font-semibold tracking-tighter">
-        Let's Connect
+      Cuéntanos tus dudas
       </h2>
       <motion.form
         onSubmit={handleSubmit}

@@ -7,21 +7,21 @@ import {
   FaInstagram,
 } from "react-icons/fa6";
 
-import { RiReactjsLine } from "react-icons/ri";
-import { TbBrandNextjs } from "react-icons/tb";
-import { SiMongodb } from "react-icons/si";
-import { DiRedis } from "react-icons/di";
-import { FaNodeJs } from "react-icons/fa";
-import { BiLogoPostgresql } from "react-icons/bi";
+import { SiFacebook } from "react-icons/si";
+import { BsCameraReels } from "react-icons/bs";
+import { FcPositiveDynamic } from "react-icons/fc";
+import { FcCollaboration } from "react-icons/fc";
+import { FcConferenceCall } from "react-icons/fc";
+import { FcSignature } from "react-icons/fc";
 
-import image1 from "../assets/project1.jpeg";
-import image2 from "../assets/project2.jpeg";
-import image3 from "../assets/project3.jpeg";
-import image4 from "../assets/project4.jpeg";
-import image5 from "../assets/project5.jpeg";
-import image6 from "../assets/project6.jpeg";
-import image7 from "../assets/project7.jpeg";
-import image8 from "../assets/project8.jpeg";
+import image1 from "../assets/project1.jpg";
+import image2 from "../assets/project2.jpg";
+import image3 from "../assets/project3.jpg";
+import image4 from "../assets/project4.jpg";
+import image5 from "../assets/project5.jpg";
+import image6 from "../assets/project6.jpg";
+import image7 from "../assets/project7.jpg";
+import image8 from "../assets/project8.jpg";
 
 import user1 from "../assets/profile-pictures/user1.jpg";
 import user2 from "../assets/profile-pictures/user2.jpg";
@@ -99,33 +99,33 @@ export const PROJECTS = [
 
 export const SKILLS = [
   {
-    icon: <RiReactjsLine className="text-4xl lg:text-6xl text-cyan-400" />,
-    name: "React",
+    icon: <SiFacebook className="text-4xl lg:text-6xl text-cyan-400" />,
+    name: "Gestión de Redes Sociales",
     experience: "2+ years",
   },
   {
-    icon: <TbBrandNextjs className="text-4xl lg:text-6xl text-white" />,
-    name: "Next.js",
+    icon: <BsCameraReels className="text-4xl lg:text-6xl text-white" />,
+    name: "Generación de Contenido",
     experience: "1+ year",
   },
   {
-    icon: <SiMongodb className="text-4xl lg:text-6xl text-green-600" />,
-    name: "MongoDB",
+    icon: <FcPositiveDynamic className="text-4xl lg:text-6xl text-green-600" />,
+    name: "Estrategia de Social Media",
     experience: "1.5+ years",
   },
   {
-    icon: <DiRedis className="text-4xl lg:text-6xl text-red-600" />,
-    name: "Redis",
+    icon: <FcCollaboration  className="text-4xl lg:text-6xl text-red-600" />,
+    name: "Publicidad en Redes Sociales",
     experience: "1+ year",
   },
   {
-    icon: <FaNodeJs className="text-4xl lg:text-6xl text-green-600" />,
-    name: "Node.js",
+    icon: <FcConferenceCall className="text-4xl lg:text-6xl text-green-600" />,
+    name: "Creatividad Publicitaria",
     experience: "2+ years",
   },
   {
-    icon: <BiLogoPostgresql className="text-4xl lg:text-6xl text-sky-700" />,
-    name: "PostgreSQL",
+    icon: <FcSignature className="text-4xl lg:text-6xl text-sky-700" />,
+    name: "Branding/Rebranding",
     experience: "1+ year",
   },
 ];
