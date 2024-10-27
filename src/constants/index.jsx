@@ -39,7 +39,7 @@ export const NAVIGATION_LINKS = [
 
 export const PROFILE = {
   name: "",
-  info: "Agencia de Marketing digital",
+  info: "LUIS DANIEL SUAREZ NIETO",
 };
 
 export const ABOUT = {
