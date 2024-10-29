@@ -12,7 +12,7 @@ const Footer = () => {
           transition={{ duration: 1.5, delay: 1 }}
         >
           <img src={logo} width={200} className="mb-2" />
-          <div className="mb-10 h-3 w-12 bg-yellow-400" />
+          <div className="mb-10 h-3 w-12 bg-[#a3447c]" />
         </motion.figure>
       </div>
       <div className="flex items-center justify-center gap-8">

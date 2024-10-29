@@ -29,7 +29,7 @@ const Projects = () => {
         variants={containerVariants}
         viewport={{ once: true }}
       >
-        Projectos
+        Proyectos
       </motion.h2>
       <motion.div
         className="flex flex-wrap justify-center py-8"

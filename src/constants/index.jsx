@@ -29,22 +29,22 @@ import user3 from "../assets/profile-pictures/user3.jpg";
 import user4 from "../assets/profile-pictures/user4.jpg";
 
 export const NAVIGATION_LINKS = [
-  { label: "Acerca", href: "#about" },
+  { label: "Conócenos", href: "#about" },
   { label: "Proyectos", href: "#projects" },
   { label: "Servicios", href: "#skills" },
-  { label: "Andromedia", href: "#award" },
+  { label: "", href: "#award" },
   { label: "Equipo", href: "#testimonials" },
   { label: "Contacto", href: "#contact" },
 ];
 
 export const PROFILE = {
   name: "",
-  info: "Agencia de Marketing digital",
+  info: "",
 };
 
 export const ABOUT = {
   text1:
-    "🚀 Apasionados por el mkt y la publicidad. Transformamos ideas en estrategias 📈",
+    "🚀 Apasionados por el mkt y la publicidad. Transformamos ideas en estrategias ",
   text2:
     "En nuestra agencia de marketing y publicidad, llevamos la creatividad y la estrategia al siguiente nivel. Somos apasionados por conectar marcas con sus audiencias, entendiendo sus necesidades y superando sus expectativas. Transformamos ideas en estrategias innovadoras y efectivas que generan impacto y potencian el crecimiento de nuestros clientes. Con un enfoque integral, combinamos el análisis de mercado, la creatividad y las últimas tendencias digitales para ofrecer soluciones personalizadas y resultados medibles. Más que una agencia, somos el aliado que tu marca necesita para destacar en un mundo competitivo.",
 };
@@ -67,34 +67,7 @@ export const PROJECTS = [
     subtitle: "A project management tool built with Django and PostgreSQL.",
     image: image3,
   },
-  {
-    title: "Personal Portfolio",
-    subtitle:
-      "A personal portfolio website designed with HTML, CSS, and JavaScript.",
-    image: image4,
-  },
-  {
-    title: "Weather Dashboard",
-    subtitle:
-      "A weather dashboard application built with Vue.js and Express.js.",
-    image: image5,
-  },
-  {
-    title: "Blog Platform",
-    subtitle:
-      "A blogging platform developed with Ruby on Rails and PostgreSQL.",
-    image: image6,
-  },
-  {
-    title: "Fitness Tracker",
-    subtitle: "A fitness tracking app created using Flutter and Firebase.",
-    image: image7,
-  },
-  {
-    title: "Recipe Finder",
-    subtitle: "A recipe finder application developed with Angular and Node.js.",
-    image: image8,
-  },
+  
 ];
 
 export const SKILLS = [
@@ -159,13 +132,6 @@ export const TESTIMONIALS = [
       "Nuestro CEO tiene una de las mejores visiones en el mundo del marketing pues sus ideas han ayudado a posicionar a las mejores marcas en posiciones de alto nivel.",
     image: user3,
   },
-  {
-    name: "",
-    title: "",
-    quote:
-      "",
-    image: user4,
-  },
 ];
 
 export const SOCIAL_MEDIA_LINKS = [
@@ -173,24 +139,10 @@ export const SOCIAL_MEDIA_LINKS = [
     href: "https://www.facebook.com/profile.php?id=61560385270437&mibextid=LQQJ4d",
     icon: <FaFacebook fontSize={25} className="hover:opacity-80" />,
   },
-  {
-    href: "https://x.com/",
-    icon: <FaDiscord fontSize={25} className="hover:opacity-80" />,
-  },
+  
   {
     href: "https://www.instagram.com/andromedia.mkt?igsh=Y3FzMHl5bWk5cDVy&utm_source=qr",
     icon: <FaInstagram fontSize={25} className="hover:opacity-80" />,
   },
-  {
-    href: "https://x.com/",
-    icon: <FaXTwitter fontSize={25} className="hover:opacity-80" />,
-  },
-  {
-    href: "https://github.com/",
-    icon: <FaGithub fontSize={25} className="hover:opacity-80" />,
-  },
-  {
-    href: "https://www.linkedin.com/",
-    icon: <FaLinkedin fontSize={25} className="hover:opacity-80" />,
-  },
+  
 ];

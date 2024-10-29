@@ -28,21 +28,21 @@ const Navbar = () => {
 
   return (
     <div>
-      <nav className="fixed left-0 right-0 top-4 z-50">
+      <nav className="fixed left-0 right-36 top-4 z-50">
         {/* Desktop Menu */}
-        <div className="mx-auto hidden max-w-2xl items-center justify-center rounded-lg bg-black/20 py-3 backdrop-blur-lg lg:flex">
-          <div className="flex justify-between gap-6">
+        <div className="mx-auto hidden max-w-2xl items-center justify-center rounded-lg bg-transparent py-3 backdrop-blur-none lg:flex font-semibold  ">
+          <div className="flex justify-between gap-4">
             <div>
               <a href="#">
-                <img src={logo} width={90} alt="Logo" />
+                <img src={logo} width={900} alt="Logo" className="scale-50 -mt-6 ml-20" />
               </a>
             </div>
             <div>
-              <ul className="flex items-center gap-4">
+              <ul className="flex items-center gap-3">
                 {NAVIGATION_LINKS.map((item, index) => (
                   <li key={index}>
                     <a
-                      className="text-sm hover:text-yellow-400"
+                      className="size- hover:text-[#a3447c]"
                       href={item.href}
                       onClick={(e) => handleLinkClick(e, item.href)}
                     >
@@ -56,11 +56,12 @@ const Navbar = () => {
         </div>
 
         {/* Mobile Menu */}
-        <div className="rounded-lg backdrop-blur-md lg:hidden">
+        <div className="rounded-lg backdrop-blur-md lg:hidden ml-9 -mr-28">
           <div className="flex items-center justify-between">
             <div>
               <a href="#">
                 <img src={logo} width={90} alt="Logo" className="m-2" />
+
               </a>
             </div>
             <div className="flex items-center">
@@ -77,7 +78,7 @@ const Navbar = () => {
             </div>
           </div>
           {isMobileMenuOpen && (
-            <ul className="ml-4 mt-4 flex flex-col gap-4 backdrop-blur-md">
+            <ul className="ml-4 mt-4 flex flex-col gap-4 backdrop-blur-md ">
               {NAVIGATION_LINKS.map((item, index) => (
                 <li key={index}>
                   <a

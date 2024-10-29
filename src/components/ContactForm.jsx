@@ -66,7 +66,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="mx-auto max-w-3xl p-4" id="contact">
+    <div className="mx-auto max-w-3xl p-4  h-[50vh]" id="contact">
       <Toaster />
       <h2 className="my-8 text-center text-4xl font-semibold tracking-tighter">
       Cuéntanos tus dudas
@@ -89,7 +89,7 @@ const ContactForm = () => {
           />
           {errors.name && (
             <motion.p
-              className="text-sm text-pink-700"
+              className="text-sm text-pink-700 "
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               aria-live="polite"
@@ -142,7 +142,7 @@ const ContactForm = () => {
         </div>
         <button
           type="submit"
-          className={`mb-8 w-full rounded bg-yellow-400 px-4 py-2 text-sm font-semibold text-slate-950 hover:bg-yellow-500 ${
+          className={`mb-8 w-full rounded bg-[#cf86fa] px-4 py-2 text-sm font-semibold text-slate-950 hover:bg-[#7c23a6] ${
             isSending ? "cursor-not-allowed opacity-50" : ""
           }`}
           disabled={isSending}

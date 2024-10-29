@@ -11,10 +11,10 @@ const About = () => {
         transition={{ duration: 0.5 }}
         viewport={{ once: true }}
       >
-        Acerca
+        Conócenos
       </motion.h2>
       <motion.h3
-        className="p-4 text-6xl uppercase lg:text-[8rem]"
+        className=" mt-14 -ml-28 p-4  uppercase lg:text-[3rem]"
         initial={{ opacity: 0, x: -100 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 1 }}
@@ -23,7 +23,7 @@ const About = () => {
         {ABOUT.text1}
       </motion.h3>
       <motion.p
-        className="mr-24 pl-4 text-lg leading-loose"
+        className="mt-10 text-2xl  mr-24 pl-  leading-loose"
         initial={{ opacity: 0, x: 100 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 1 }}
