@@ -39,7 +39,7 @@ export const NAVIGATION_LINKS = [
 
 export const PROFILE = {
   name: "",
-  info: "",
+  info: "Agencia de Marketing digital",
 };
 
 export const ABOUT = {
