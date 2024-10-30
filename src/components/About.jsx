@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <div className="container mx-auto" id="about">
+    <div className="container mx-auto h-[90vh]" id="about">
       <motion.h2
         className="mt-20 text-center text-4xl font-semibold"
         initial={{ opacity: 0, y: -20 }}
@@ -14,7 +14,7 @@ const About = () => {
         Conócenos
       </motion.h2>
       <motion.h3
-        className=" mt-14 -ml-28 p-4  uppercase lg:text-[3rem]"
+        className=" mt-14 -ml-1 p-4  uppercase lg:text-[2rem]"
         initial={{ opacity: 0, x: -100 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 1 }}
@@ -23,7 +23,7 @@ const About = () => {
         {ABOUT.text1}
       </motion.h3>
       <motion.p
-        className="mt-10 text-2xl  mr-24 pl-  leading-loose"
+        className="mt-40 text-2xl  mr-24 pl-  leading-loose"
         initial={{ opacity: 0, x: 100 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 1 }}

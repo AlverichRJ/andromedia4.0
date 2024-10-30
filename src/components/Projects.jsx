@@ -23,7 +23,7 @@ const Projects = () => {
   return (
     <div id="projects">
       <motion.h2
-        className="mt-20 text-center text-4xl font-semibold"
+        className=" text-center text-4xl font-semibold h-[50vh]"
         initial="hidden"
         whileInView="visible"
         variants={containerVariants}
@@ -32,7 +32,7 @@ const Projects = () => {
         Proyectos
       </motion.h2>
       <motion.div
-        className="flex flex-wrap justify-center py-8"
+        className="flex relative h-[70vh] "
         initial="hidden"
         whileInView="visible"
         variants={containerVariants}

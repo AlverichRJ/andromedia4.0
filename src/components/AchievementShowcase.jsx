@@ -21,8 +21,8 @@ const itemVariants = {
 
 const AchievementShowcase = () => {
   return (
-    <div id="award">
-      <h2 className="mb-4 mt-16 text-center text-4xl font-semibold">Andromedia</h2>
+    <div id="award h-[10vh]">
+      <h2 className="mb-2 -mt-[370px] text-center text-4xl font-semibold"></h2>
       <motion.div
         className="mx-auto flex max-w-6xl flex-wrap"
         initial="hidden"
@@ -30,8 +30,8 @@ const AchievementShowcase = () => {
         variants={containerVariants}
         viewport={{ once: true }}
       >
-        <motion.div className="w-full p-1 sm:w-1/2" variants={itemVariants}>
-          <video className="w-full rounded-lg" autoPlay muted loop playsInline>
+        <motion.div className="relative w-32 p-1 sm:w-1/2" variants={itemVariants}>
+          <video className="w-[400px] rounded-lg" autoPlay muted loop playsInline>
             <source src={video} type="video/mp4" />
           </video>
         </motion.div>
